@@ -2,6 +2,11 @@
 
 Implementation of Bing GPT as a Alexa Skil.
 
+Youtube Demo  
+https://youtube.com/shorts/LKjYoFaYkv8?feature=share  
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LKjYoFaYkv8/0.jpg)](https://www.youtube.com/watch?v=LKjYoFaYkv8)
+
 
 1. Say "ask" followed by your question.
 2. Recieve a password.
