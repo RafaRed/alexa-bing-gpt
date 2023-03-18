@@ -52,12 +52,12 @@ You need python 3.10.9
 #### Save
 17. On the top click in `Save Model` and `Build Model`
 
-### Change the Code
+#### Change the Code
 18. on the tab `code` replace the code on `lambda_function.py` for the code on the github with the same name
 19. on the code, search for the two fields `SERVER_ADDRESS` and replace by your IP + port if needed. if you have trouble with port fowarding, see the next topic bellow.
 20. click on `SAVE` and `DEPLOY`
 
-### Testing
+#### Testing
 21. On the `Test` tab select `Development` on top
 22. on the text box write Open and your choosen Skill Invocation Name
 23. you should recieve the message `Hello, say ask and your question!`
@@ -65,3 +65,9 @@ You need python 3.10.9
 25. you should recieve `say, password: ##`
 26. wait 1 or 2 minutes, so bing can answer your question, then ask for it, with `password ##`
 27. that's it. it should be enabled by default on your devices of the same amazon account
+
+
+## Get a SERVER_ADDRESS without portfoward
+29. I recommend downloading jprq https://github.com/azimjohn/jprq/releases/tag/2.0
+30. Auth, then exec with `jprq-windows-amd64.exe http 8080` and you will recieve an SERVER_ADDRESS.
+
